@@ -1,6 +1,6 @@
 # Cookiecutter Plantilla General
 
-Esta es una plantilla **genérica** basada en [Cookiecutter](https://cookiecutter.readthedocs.io/) para crear proyectos en **Python**.  
+Esta es una plantilla **genérica** basada en [Cookiecutter](https://cookiecutter.readthedocs.io/) para crear proyectos en **Python** para **Data & Flow Consulting**.  
 Sirve como punto de partida para proyectos de análisis de datos, APIs, chatbots, ETL, etc.
 
 ---
