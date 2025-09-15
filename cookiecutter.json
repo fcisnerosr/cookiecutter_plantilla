@@ -1,0 +1,24 @@
+{
+  "project_title": "Proyecto Genérico",                       // Nombre del proyecto (legible para humanos)
+  "project_slug": "{{ cookiecutter.project_title.lower().replace(' ', '_').replace('-', '_') }}",  
+                                                              // Nombre técnico (usado en carpetas/paquete)
+  "project_description": "Descripción breve del proyecto",     // Breve resumen (usado en README, pyproject)
+  "project_author_name": "Tu Nombre",                         // Nombre del autor
+  "project_author_email": "tu_correo@ejemplo.com",            // Correo del autor
+  "python_version": "3.12",                                   // Versión de Python recomendada para el proyecto
+  "project_packages": ["All", "Minimal"],                     // Opción para incluir dependencias completas o básicas
+  "open_source_license": [                                    // Opciones de licencia para generar LICENSE
+    "MIT",
+    "Apache-2.0",
+    "BSD-3-Clause",
+    "GPL-3.0",
+    "Proprietary"
+  ],
+  "initial_release_version": "0.1.0",                         // Versión inicial del proyecto
+  "github_username": "tu_usuario_github",                     // Se puede usar en README o URLs del repo
+  "_copy_without_render": [                                   // Archivos que no deben procesarse como plantillas
+    "*.html",
+    "*.js",
+    "*.css"
+  ]
+}
